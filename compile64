@@ -1,4 +1,5 @@
 #!/bin/bash
+#compile64.sh
 
 # Script de compilation pour programme en assembleur NASM utilisant 'main'
 

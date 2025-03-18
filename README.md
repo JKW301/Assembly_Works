@@ -24,6 +24,15 @@ Copiez le script dans `/usr/local/bin` pour qu'il soit disponible globalement :
 Rechargez avec :
 ```bash
 source ~./bashrc
+
+### compile64.sh
+Se trouve également un script bash qu'il suffit de mettre dans le bashrc ou zshrc :
+
+```bash
+echo 'export PATH="$HOME/Git_Repos/Assembly_WorkShop:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+```
+
 ```
 La commande `compile64` devrait fonctionner.
 
